@@ -12,7 +12,7 @@
   </div>
   
   <div class="phone-detail">
-    <router-link to="/buynow">
+    <router-link to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -30,7 +30,7 @@
       </div>
     </router-link>
     
-    <RouterLink to="/buynow">
+    <RouterLink to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -48,7 +48,7 @@
       </div>
     </RouterLink>
     
-    <router-link to="/buynow">
+    <router-link to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -66,7 +66,7 @@
       </div>
     </router-link>
     
-    <RouterLink to="/buynow">
+    <RouterLink to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">

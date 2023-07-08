@@ -4,7 +4,7 @@
 <!-- @body -->
     
 <div class="phone-container">
-  <div class=" header-type-2">
+  <div class=" header-type-1">
       <h1 class="header-card-1" >iPhone<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
         </svg>
@@ -14,7 +14,7 @@
   </div>
   
   <div class="phone-detail">
-    <router-link to="/buynow">
+    <router-link to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -32,7 +32,7 @@
       </div>
     </router-link>
     
-    <RouterLink to="/buynow">
+    <RouterLink to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -50,7 +50,7 @@
       </div>
     </RouterLink>
     
-    <router-link to="/buynow">
+    <router-link to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -68,7 +68,7 @@
       </div>
     </router-link>
     
-    <RouterLink to="/buynow">
+    <RouterLink to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">
@@ -87,7 +87,7 @@
     </RouterLink>
 
 
-    <RouterLink to="/buynow">
+    <RouterLink to="/detail">
       <div class="phone-content">
         <div class="title-content">
           <div class="title-phone">

@@ -5,7 +5,9 @@ import Samsung from '../views/Samsung.vue';
 import Oppo from '../views/Oppo.vue';
 import Huawei from '../views/Huawei.vue';
 import Login from '../views/Login.vue';
-import BuyNow from '../views/BuyNow.vue';
+import Card from '../views/Card.vue';
+import Others from '../views/Others.vue';
+import Detail from '../views/DetailView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -36,9 +38,19 @@ const router = createRouter({
       component: Huawei
     },
     {
-      path: '/buynow',
-      name: 'buynow',
-      component: BuyNow
+      path: '/detail',
+      name: 'detail',
+      component: Detail
+    },
+    {
+      path: '/others',
+      name: 'others',
+      component: Others
+    },
+    {
+      path: '/card',
+      name: 'card',
+      component: Card
     },
     {
       path: '/login',

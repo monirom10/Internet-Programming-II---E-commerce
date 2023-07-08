@@ -51,7 +51,7 @@ body{
 }
 /* @menu */
 .menu{
-  width: 750px;
+  width: 800px;
   height: 100%;
   /* background-color: green; */
   margin-left: auto;
@@ -62,13 +62,21 @@ body{
   padding-right: 20px;
 }
 .menu .menu-nav .menu-item{
-    list-style-type: none;
-    padding: 33px 20px;
-    font-weight: 500;
-    color: var(--vt-c-white);
-    font-size: 20px;
-
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--vt-c-white);
+  list-style-type: none;
+  padding: 33px 20px;
 }
+.menu .menu-nav .menu-item.active {
+  /* Add your desired styles for the active menu item */
+  /* background-color: var(--active-menu-color);
+  color: black;
+  font-weight: bold; */
+  font-weight: 900;
+}
+/* @======================== */
+
 .menu .menu-nav .menu-item .item-link{
     position: relative;
 }
@@ -94,6 +102,41 @@ body{
 .menu .menu-nav .menu-item .item-link:hover::before, .menu .menu-nav .menu-item .item-link:hover::after{
     width: 50%;
 }
+
+
+/* @============================ */
+.menu .menu-nav .menu-item.active .item-link {
+  position: relative;
+}
+
+.menu .menu-nav .menu-item.active .item-link::before,
+.menu .menu-nav .menu-item.active .item-link::after {
+  width: 50%;
+}
+
+.menu .menu-nav .menu-item.active .item-link::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: white;
+  top: 100%;
+  transition: all 0.5s;
+}
+
+.menu .menu-nav .menu-item.active .item-link::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: blue;
+  top: 100%;
+  right: 0;
+  transition: all 0.5s;
+}
+
+
+
 
 .menu .menu-nav .menu-item:nth-child(6){
   color: white;
@@ -282,6 +325,7 @@ body{
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+  color: #000;
 }
 
 /* @header-samsung */
